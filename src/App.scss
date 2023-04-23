@@ -15,14 +15,15 @@ body {
         border: 0;
         padding: 20px;
         border-radius: 30px;
-        width: 400px;
+        width: 60vw;
+        max-width: 400px;
         text-align: center;
         outline: none;
       }
     }
 
     .container {
-      margin-top: 40px;
+      margin: 40px 0;
       display: flex;
       flex-wrap: wrap;
       margin-left: auto;
@@ -35,9 +36,9 @@ body {
         flex: 1;
         background-color: #ffffff;
         border-radius: 30px;
-        margin: 1vw;
+        margin: 10px;
         overflow: hidden;
-        box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.05);
+        box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.05);
         cursor: pointer;
 
         img {
@@ -50,11 +51,11 @@ body {
         .name {
           font-size: 18px;
           font-weight: 600;
-          margin: 15px;
+          margin: 20px;
         }
 
         .description {
-          margin: 15px;
+          margin: 20px;
           font-size: 12px;
         }
       }
